@@ -55,6 +55,12 @@ a {
 
 }
 
+.contact-square a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 a:hover {
     color: black;
 }
@@ -177,3 +183,17 @@ img {
     background    : rgb(120, 226, 216);
     overflow      : hidden;
 }
+
+.contact-square {
+    display        : flex;
+    flex           : 0 0 100%;
+    font-size      : 2rem;
+    justify-content: space-between;
+    padding-left   : 1rem;
+    padding-top    : 1rem;
+    padding-right  : 1rem;
+    padding-bottom : 1rem;
+
+}
+
+
