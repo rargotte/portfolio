@@ -56,8 +56,8 @@ a {
 }
 
 .contact-square a {
-    color: -webkit-link;
-    cursor: pointer;
+    color          : -webkit-link;
+    cursor         : pointer;
     text-decoration: underline;
 }
 
@@ -69,6 +69,15 @@ a:active {
     color: rgba(131, 159, 185, 0.336);
 }
 
+/*.Sol-Architect {
+    height             : 800px;
+    width              : 100%;
+    margin-bottom      : 25px;
+    background-image   : url("../images/architecture-g1adcbc214_1920.jpg");
+    background-size    : cover;
+    background-position: center;
+}*/
+
 .Sol-Architect {
     height             : 800px;
     width              : 100%;
@@ -76,6 +85,14 @@ a:active {
     background-image   : url("../images/architecture-g1adcbc214_1920.jpg");
     background-size    : cover;
     background-position: center;
+}
+
+.profile-pic img {
+    position: absolute;
+    width   : 30rem;
+    top     : 70rem;
+    right   : 5rem;
+    border-radius: 50%;
 }
 
 main {
@@ -140,6 +157,12 @@ main {
     outline-offset: -10px;
 }
 
+.small-square :hover {
+    cursor: pointer;
+    filter: contrast(200%);
+
+}
+
 .big-square {
     flex          : 0 0 100%;
     font-size     : 2rem;
@@ -151,13 +174,20 @@ main {
     outline-offset: -10px;
 }
 
+.small-square,
+.big-square :hover {
+    cursor: pointer;
+    filter: contrast(200%);
+
+}
+
 .text-square h2 {
-    text-indent  : 5rem;
     font-weight  : lighter;
     color        : #2a607c;
     font-size    : 2rem;
     margin-bottom: 1rem;
     margin-left  : 0.5rem;
+    padding-left : 0.5rem;
 }
 
 img {
@@ -190,10 +220,44 @@ img {
     font-size      : 2rem;
     justify-content: space-between;
     padding-left   : 1rem;
-    padding-top    : 1rem;
     padding-right  : 1rem;
     padding-bottom : 1rem;
 
 }
 
+/*Filter styles*/
+.saturate {
+    filter: saturate(3);
+}
 
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.contrast {
+    filter: contrast(200%);
+}
+
+.brightness {
+    filter: brightness(0.25);
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.huerotate {
+    filter: hue-rotate(180deg);
+}
+
+.rss.opacity {
+    filter: opacity(50%);
+}
