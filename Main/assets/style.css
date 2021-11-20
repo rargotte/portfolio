@@ -15,7 +15,9 @@ body {
 
 header {
     display         : flex;
-    padding         : 2rem;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding-top         :2vw ;
     font-family     : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color           : #ffffff;
@@ -28,25 +30,25 @@ header h1 {
 }
 
 header h1.page-title {
-    padding  : 1rem 1.2rem;
-    font-size: 4.5rem;
+    padding  : 1vw;
+    font-size: 3vw;
 }
 
-header div {
+header a {
     padding-top : 1.5rem;
-    margin-right: 2.0rem;
     float       : right;
     font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size   : 2.0rem;
+    font-size   : 2vw;
 }
 
 header div ul {
     list-style-type: none;
+    margin-right: 0.5vw;
 }
 
 header div ul li {
     display    : inline-block;
-    margin-left: 2.5rem;
+    margin-left: 2vw;
 }
 
 a {
@@ -88,16 +90,16 @@ a:active {
 }
 
 .profile-pic img {
-    position: absolute;
-    width   : 30rem;
-    top     : 70rem;
-    right   : 5rem;
+    position     : absolute;
+    width        : 30rem;
+    top          : 70rem;
+    right        : 5rem;
     border-radius: 50%;
 }
 
 main {
-    width : 90%;
-    margin: 2rem 2rem 2rem 4.5rem;
+    width: 90%;
+
 }
 
 .row {
@@ -117,21 +119,20 @@ main {
 .left-column {
     flex           : 0 0 30%;
     display        : flex;
-    margin-bottom  : 4rem;
     font-size      : 5rem;
     justify-content: flex-end;
     padding-right  : 2rem;
     border-right   : 0.35rem solid #2a607c;
+    margin-bottom  : 1vw;
 
 }
 
 .left-column h2 {
-    font-weight  : bold;
-    color        : #2a607c;
-    font-size    : 4rem;
-    text-align   : right;
-    margin-bottom: 2rem;
-    line-height  : 0.5;
+    font-weight: bold;
+    color      : #2a607c;
+    font-size  : 4vw;
+    text-align : right;
+    line-height: 1;
 }
 
 .right-column {
@@ -141,9 +142,8 @@ main {
     justify-content: flex-start;
     flex-wrap      : wrap;
     color          : var(--heliotrope);
-    font-size      : 2.5rem;
     text-align     : justify;
-    padding-bottom : 3rem;
+    margin-bottom  : 1vw;
 }
 
 .small-square {
@@ -182,12 +182,12 @@ main {
 }
 
 .text-square h2 {
-    font-weight  : lighter;
-    color        : #2a607c;
-    font-size    : 2rem;
-    margin-bottom: 1rem;
-    margin-left  : 0.5rem;
-    padding-left : 0.5rem;
+    font-weight : lighter;
+    color       : #2a607c;
+    font-size   : 1.5vw;
+    margin-left : 0.5rem;
+    padding-left: 0.5rem;
+    line-height : 2vw;
 }
 
 img {
@@ -201,63 +201,39 @@ img {
     overflow      : hidden;
     padding-bottom: 34%;
     position      : relative;
+
+}
+
+
+.img-wrapper p {
+    position  : absolute;
+    background: rgb(120, 226, 216);
+    bottom    : 5%;
+    left      : 0.5%;
+    padding   : 1%;
+    font-size : 1vw;
 }
 
 .pic-label {
-    position      : absolute;
-    display       : flex;
-    flex          : 1 AUTO;
-    flex-direction: row;
-    margin        : -6.5rem 0 1rem 0rem;
-    padding       : 2rem;
-    background    : rgb(120, 226, 216);
-    overflow      : hidden;
+    position            : absolute;
+    display             : flex;
+    flex                : 1 1 30%;
+    flex-direction      : row;
+    /*    margin        : -6.5rem 0 1rem 0rem; */
+    padding             : 1rem;
+    background          : rgb(120, 226, 216);
+    overflow            : hidden;
+    font-size           : small;
 }
 
 .contact-square {
     display        : flex;
     flex           : 0 0 100%;
-    font-size      : 2rem;
+    font-size      : 1vw;
     justify-content: space-between;
     padding-left   : 1rem;
     padding-right  : 1rem;
     padding-bottom : 1rem;
+    align-items    : center;
 
-}
-
-/*Filter styles*/
-.saturate {
-    filter: saturate(3);
-}
-
-.grayscale {
-    filter: grayscale(100%);
-}
-
-.contrast {
-    filter: contrast(200%);
-}
-
-.brightness {
-    filter: brightness(0.25);
-}
-
-.blur {
-    filter: blur(3px);
-}
-
-.invert {
-    filter: invert(100%);
-}
-
-.sepia {
-    filter: sepia(100%);
-}
-
-.huerotate {
-    filter: hue-rotate(180deg);
-}
-
-.rss.opacity {
-    filter: opacity(50%);
 }
