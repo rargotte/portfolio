@@ -12,6 +12,7 @@ This is an informative web site on the professional profile of Regulo Argotte.
 The header of the web page contains a background emulating architectonic blueprints and a profile picture on the bottom right of Regulo Argotte.
 
 The profile picture looks as follows:
+
 <img src= "Main/images/Profile-pic.jpg" width="250" height="250">
 
 The header also contains 3 Links:
