@@ -7,7 +7,7 @@ No need ot install. This is an informative web site.
 * CSS
 ## Description
 This is an informative web site on the professional profile of Regulo Argotte.
-![profile pic](https://github.com/rargotte/portfolio/blob/main/Main/images/Profile-pic.jpg width=100)
+![profile pic](https://github.com/rargotte/portfolio/blob/main/Main/images/Profile-pic.jpg | width=100)
 
 The header of the web page contains a background emulating architectonic blueprints and a profile picture on the bottom right of Regulo Argotte.
 It also contains 3 Links:
