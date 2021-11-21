@@ -57,12 +57,6 @@ a {
 
 }
 
-.contact-square a {
-    color          : -webkit-link;
-    cursor         : pointer;
-    text-decoration: underline;
-}
-
 a:hover {
     color: black;
 }
@@ -71,17 +65,8 @@ a:active {
     color: rgba(131, 159, 185, 0.336);
 }
 
-/*.Sol-Architect {
-    height             : 800px;
-    width              : 100%;
-    margin-bottom      : 25px;
-    background-image   : url("../images/architecture-g1adcbc214_1920.jpg");
-    background-size    : cover;
-    background-position: center;
-}*/
-
 .Sol-Architect {
-    height             : 800px;
+    height             : 80vw;
     width              : 100%;
     margin-bottom      : 25px;
     background-image   : url("../images/architecture-g1adcbc214_1920.jpg");
@@ -89,13 +74,26 @@ a:active {
     background-position: center;
 }
 
-.profile-pic img {
-    position     : absolute;
-    width        : 30rem;
-    top          : 70rem;
-    right        : 5rem;
-    border-radius: 50%;
-}
+@media only screen and (max-width: 1158px) {
+    .profile-pic img {
+        position     : absolute;
+        width        : 30vh;
+        top          : 100vh;
+        right        : 5vh;
+        border-radius: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .profile-pic img {
+        position     : absolute;
+        width        : 20vh;
+        top          : 20vh;
+        right        : 12vh;
+        border-radius: 50%;
+    }
+  }
+
 
 main {
     width: 90%;
@@ -157,12 +155,6 @@ main {
     outline-offset: -10px;
 }
 
-.small-square :hover {
-    cursor: pointer;
-    filter: contrast(200%);
-
-}
-
 .big-square {
     flex          : 0 0 100%;
     font-size     : 2rem;
@@ -204,7 +196,6 @@ img {
 
 }
 
-
 .img-wrapper p {
     position  : absolute;
     background: rgb(120, 226, 216);
@@ -214,16 +205,10 @@ img {
     font-size : 1vw;
 }
 
-.pic-label {
-    position            : absolute;
-    display             : flex;
-    flex                : 1 1 30%;
-    flex-direction      : row;
-    /*    margin        : -6.5rem 0 1rem 0rem; */
-    padding             : 1rem;
-    background          : rgb(120, 226, 216);
-    overflow            : hidden;
-    font-size           : small;
+.contact-square a {
+    color          : -webkit-link;
+    cursor         : pointer;
+    text-decoration: underline;
 }
 
 .contact-square {
