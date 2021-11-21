@@ -211,10 +211,10 @@ main {
 .text-square h2 {
     font-weight : lighter;
     color       : #2a607c;
-    font-size   : 1.5vw;
+    font-size   : 2.5vw;
     margin-left : 0.5rem;
     padding-left: 0.5rem;
-    line-height : 2vw;
+    line-height : 2.5vw;
 }
 
 img {
