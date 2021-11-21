@@ -7,10 +7,14 @@ No need ot install. This is an informative web site.
 * CSS
 ## Description
 This is an informative web site on the professional profile of Regulo Argotte.
-<img src= "Main/images/Profile-pic.jpg" width="250" height="250">
+
 
 The header of the web page contains a background emulating architectonic blueprints and a profile picture on the bottom right of Regulo Argotte.
-It also contains 3 Links:
+
+The profile picture looks as follows:
+<img src= "Main/images/Profile-pic.jpg" width="250" height="250">
+
+The header also contains 3 Links:
 About Me.
 My Work.
 Contact Information.
