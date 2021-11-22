@@ -203,13 +203,7 @@ main {
     outline-offset: -10px;
 }
 
-.small-square:hover {
-    cursor: pointer;
-    filter: contrast(200%);
-
-}
-
-.big-square:hover {
+.small-square:hover, .big-square:hover {
     cursor: pointer;
     filter: contrast(200%);
 
